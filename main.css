@@ -102,18 +102,19 @@ body{
 	width: 100%;
 	height: 308px;
 	box-shadow: -2px 25px 25px -11px #000;
-	position: relative;
+	float: left;
 }
 
 .img-slider img{
 	width: 100%;
 	height: 100%;
-	position: relative;
-	top: -38px;
 }
 
-.padding{
+
+
+.block-mid .pos-raise{
 	position: relative;
+	margin-top: -278px;
 }
 
 /*----------------------------------img-slider----------------------------------*/
@@ -121,6 +122,10 @@ body{
 .block-mid .full-text-width{
 	color: #efefef;
 	font-family: 'Segoe UI';
+}
+
+.full-text-width{
+	width: 100%;
 }
 
 .full-text-width p{
@@ -139,6 +144,7 @@ body{
 .featured-images{
 	width: 100%;
 	margin-top: 30px;
+	height: 200px;
 }
 
 .featured-img{
@@ -215,12 +221,12 @@ p{
 }
 
 .one-column{
-	width: 565px;
+	width: 100%;
 	margin-top: 14px;
 }
 
 .one-column p{
-	width: 565px;
+	width: 100%;
 
 }
 .one-column img{
@@ -235,16 +241,22 @@ p{
 	width: 257px;
 	display: inline-block;
 	margin-top: 10px;
+		margin-bottom: 30px;
+}
+
+.section{
+	width: 565px;
+	margin-bottom: 30px;
+	margin-right: 46px;
 }
 /*----------------------------------testimonials----------------------------------*/
 
 .testimonials{
 	width: 340px;
-	margin-left: 46px;
+	margin-bottom: 30px;
 }
 
 .post{
-	width: 100%;
 	padding-top: 16px;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -255,12 +267,11 @@ p{
 	border-left: 5px solid #9a9a9a;
 }
 
-.grey-background{
+.dark-background{
 	background-color: #545454;
 }
 
 .testimonials .post{
-	width: 282px;
 	background-color: #e0e0e0;
 	padding-top: 16px;
 	padding-left: 25px;
@@ -276,6 +287,7 @@ p{
 .footer{
 	width: 100%;
 	clear: both;
+	height:  126px;
 }
 
 .footer p{
@@ -287,6 +299,5 @@ p{
 .footer div div{
 	border-top: 3px solid #535555;
 	width: 100%;
-	height: 123px;
 	padding-top: 32px;
 }
